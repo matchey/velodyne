@@ -20,6 +20,8 @@
 namespace velodyne_pointcloud
 {
   /** @brief Constructor. */
+  Convert::Convert() {}
+
   Convert::Convert(ros::NodeHandle node, ros::NodeHandle private_nh):
     data_(new velodyne_rawdata::RawData())
   {

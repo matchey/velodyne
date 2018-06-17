@@ -179,9 +179,9 @@ namespace velodyne_rawdata
     /** in-line test whether a point is in range */
     bool pointInRange(float range)
     {
-      // return (range >= config_.min_range
-      //         && range <= config_.max_range);
-		return true;
+	  // return (range >= config_.min_range
+	  // 		&& range <= config_.max_range);
+	  return true;
     }
   };
 

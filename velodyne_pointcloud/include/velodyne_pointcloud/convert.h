@@ -31,6 +31,7 @@ namespace velodyne_pointcloud
   {
   public:
 
+    Convert();
     Convert(ros::NodeHandle node, ros::NodeHandle private_nh);
     ~Convert() {}
 
